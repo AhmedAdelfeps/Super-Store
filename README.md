@@ -1,239 +1,130 @@
-🛒 Super Store Sales & Profit Analysis
+# 🛒 Superstore Analytics Dashboard
 
-📊 Project Overview
+An interactive **Superstore Analytics Dashboard** designed to transform sales, profit, customer, product, and discount data into clear and actionable business insights.
 
-This project presents an interactive Power BI dashboard built to analyze the performance of a Super Store across different products, categories, regions, and customer segments.
+The dashboard provides a clean, modern interface with interactive filters, KPIs, and visualizations to help users monitor performance and make better business decisions.
 
-The dashboard transforms raw sales data into meaningful business insights, helping users understand sales performance, profitability, customer behavior, and regional trends.
+---
 
-🎯 Business Objectives
+## 📊 Dashboard Preview
+
+The landing page provides quick access to the main analytical sections of the dashboard:
+
+- **Performance Overview**
+- **Costs & Discounts**
+
+It is designed to provide a simple and professional starting point for exploring the Superstore data.
+
+---
+
+### 📈 Performance Overview
+
+The Performance Overview page focuses on sales and profitability across different dimensions.
+
+#### Key KPIs
+
+- **Total Sales:** 52.50M
+- **Total Profit:** 11.39M
+- **Average Manufacturing Price:** 97.13
+- **Most Profitable Country:** France
+
+#### Visualizations
+
+- Sales and Profit by Month
+- Units Sold by Country
+- Gross Sales by Country
+- Total Profit by Country
+- Interactive Product, Segment, and Discount filters
+
+This page helps identify high-performing countries, sales trends, and profitability patterns.
+
+---
+
+### 💰 Costs & Discounts
+
+The Costs & Discounts page focuses on operational costs, units sold, manufacturing prices, and discount behavior.
+
+#### Key KPIs
+
+- **Total COGS:** 101.83M
+- **Total Units Sold:** 1.13M
+- **Average Discounts:** 13.15K
+- **Top Discount Country:** US
+
+#### Visualizations
+
+- Total COGS over time
+- Average Discount by Country
+- Average Manufacturing Price by Segment
+- Average Discounts by Product
+- Interactive Segment, Country, and Date filters
+
+This page helps analyze cost trends and understand how discounts vary across countries, segments, and products.
+
+---
+
+## 🎯 Project Objectives
 
 The main objectives of this project are to:
 
-Analyze overall sales and profit performance
-
-Identify the most profitable product categories and sub-categories
-
-Compare sales performance across regions
-
-Analyze customer segments and their contribution to sales
-
-Identify trends in sales and profit over time
-
-Understand which products contribute most to business performance
-
-Provide an interactive dashboard for better decision-making
-
-📈 Key Performance Indicators (KPIs)
-
-The dashboard provides key metrics including:
-
-💰 Total Sales
-
-📦 Total Orders
-
-💵 Total Profit
-
-👥 Total Customers
-
-📊 Profit Margin
-
-🛍️ Average Order Value
-
-🖥️ Dashboard Preview
-
-Main Dashboard
-
-
-
-Sales Analysis
-
-
-
-Overview
-
-
-
-🔍 Key Analysis
-
-The dashboard allows users to analyze:
-
-🛍️ Product Performance
-
-Sales and profit by category
-
-Sales and profit by sub-category
-
-Identification of high-performing products
-
-Identification of products with low profitability
-
-🌎 Regional Performance
-
-Sales by region
-
-Profit by region
-
-Comparison of regional performance
-
-Identification of the strongest and weakest regions
-
-👥 Customer Analysis
-
-Sales by customer segment
-
-Profit contribution by customer segment
-
-Comparison between different customer groups
-
-📅 Time Analysis
-
-Sales trends over time
-
-Profit trends over time
-
-Monthly and yearly performance
-
-Identification of growth and decline periods
-
-🛠️ Tools & Technologies
-
-Power BI — Dashboard development and visualization
-
-DAX — KPI calculations and analytical measures
-
-Power Query — Data cleaning and transformation
-
-Excel — Data source and preparation
-
-🧹 Data Preparation
-
-The data was prepared using Power Query, including:
-
-Removing unnecessary columns
-
-Handling missing values
-
-Correcting data types
-
-Creating calculated columns where required
-
-Transforming and cleaning the dataset
-
-Preparing the data for analysis and visualization
-
-🧮 DAX
-
-DAX was used to create analytical measures and KPIs such as:
-
-Total Sales
-
-Total Profit
-
-Total Orders
-
-Profit Margin
-
-Average Order Value
-
-Customer-related metrics
-
-These measures allow the dashboard to respond dynamically to filters and user selections.
-
-📊 Dashboard Features
-
-The dashboard includes interactive:
-
-Slicers
-
-KPI cards
-
-Bar charts
-
-Line charts
-
-Donut charts
-
-Tables
-
-Filters
-
-Cross-filtering between visuals
-
-Users can interact with the dashboard to explore different aspects of the business.
-
-📁 Project Files
-
-File
-
-Description
-
-Super Store Dashboard.pbix
-
-Power BI dashboard
-
-Airline Dashboard1.png
-
-Dashboard screenshot
-
-Airline Dashboard2.png
-
-Dashboard screenshot
-
-Airline Home Page.png
-
-Dashboard home page
-
-💡 Skills Demonstrated
-
-This project demonstrates practical skills in:
-
-Data Cleaning
-
-Data Transformation
-
-Data Analysis
-
-Data Visualization
-
-Data Modeling
-
-DAX
-
-Power Query
-
-KPI Development
-
-Dashboard Design
-
-Business Intelligence
-
-🚀 Future Improvements
-
-Possible improvements to the project include:
-
-Adding a live Power BI dashboard link
-
-Adding more advanced DAX measures
-
-Creating a dedicated customer analysis page
-
-Adding forecasting
-
-Adding deeper profitability analysis
-
-Improving dashboard navigation and user experience
-
-📌 Conclusion
-
-The Super Store Sales & Profit Analysis Dashboard demonstrates how Power BI can transform raw business data into an interactive analytical tool.
-
-The dashboard provides a clear view of sales, profit, customers, products, and regional performance, allowing users to identify trends and make data-driven business decisions.
-
-👨‍💻 Author
-
-Ahmed Adel
-
-Data Analyst | Power BI | SQL | Excel | DAX
-
-⭐ If you found this project useful, feel free to explore the repository and the Power BI dashboard.
+- Analyze overall sales and profitability performance.
+- Identify the most profitable countries.
+- Track sales and profit trends over time.
+- Analyze Cost of Goods Sold (COGS).
+- Understand discount patterns across countries and products.
+- Compare manufacturing prices across customer segments.
+- Provide interactive business intelligence through an easy-to-use dashboard.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Power BI** – Dashboard development and data visualization
+- **DAX** – KPI calculations and analytical measures
+- **Power Query** – Data cleaning and transformation
+- **Microsoft Excel / CSV** – Data source
+- **GitHub** – Project documentation and version control
+
+---
+
+## 📌 Key Features
+
+- 🎨 Modern blue-themed dashboard design
+- 🏠 Interactive homepage navigation
+- 📊 KPI cards for important business metrics
+- 📈 Time-series analysis
+- 🌍 Country-level performance analysis
+- 🏷️ Product and discount analysis
+- 👥 Segment analysis
+- 🔍 Interactive slicers and filters
+- ↔️ Navigation between dashboard pages
+- 📱 Clean and user-friendly layout
+
+---
+
+## 📂 Dashboard Structure
+
+```text
+Superstore Analytics Dashboard
+│
+├── 🏠 Home
+│   ├── Performance Overview
+│   └── Costs & Discounts
+│
+├── 📈 Performance Overview
+│   ├── Total Sales
+│   ├── Total Profit
+│   ├── Average Manufacturing Price
+│   ├── Sales by Month
+│   ├── Units Sold by Country
+│   ├── Gross Sales by Country
+│   └── Profit by Country
+│
+└── 💰 Costs & Discounts
+    ├── Total COGS
+    ├── Total Units Sold
+    ├── Average Discounts
+    ├── COGS Trend
+    ├── Discount by Country
+    ├── Manufacturing Price by Segment
+    └── Discounts by Product
